@@ -1,0 +1,135 @@
+body{
+    margin-top:50px;
+   
+    background-size: cover;
+  }
+  
+  .copy-container{
+  
+    
+      height:500px;
+      width: 900px;
+
+      position: absolute;
+      top:26%;
+      left:28%;
+      text-align:center;
+      color:#15317E;
+      font-weight:bolder;
+  }
+  
+  .main a{
+      text-decoration:none;
+      color:#0000A0;
+  }
+  
+  h1{
+     font-size:40px;
+     font-weight:bolder;
+     color:#15317E;
+  }
+  
+  .btn-block{
+      height: 40px;
+      width: 400px;
+      background-color: white;
+      border:1px solid blue;
+      padding: 15px 0px  0px 0px;
+      border-radius: 30px;
+      margin-left:210px;
+      margin-top:110px;
+  }
+  .btn-block>a{
+      text-align: center;
+  }
+  
+  .content:hover .btn-block{
+  
+      background: #e9e9fa;
+  
+  }
+ /* 
+  div .content{
+  margin-left:80px;
+    height:500px;
+    width:850px;
+    background-color:white;
+    border:1px solid blue;
+    
+  }
+  
+  
+  }
+*/
+
+div .content-item{
+      
+   /* border:1px solid #a6e1f8;*/
+      height: 280px;
+      width: 280px;
+      background-color:white;
+      float:left;
+     margin:10px 0px 10px 10px;
+      padding:20px 20px 20px 20px;
+      border-radius: 50%;
+      opacity: 1;
+
+}
+
+div .content-items{
+  left:20%;
+  /*background-color: #a6e1f8;*/
+    position: absolute;
+    width:1200px;
+    height:340px;
+    opacity: 1;
+}
+
+
+.content{
+    /* background-color: #a6e1f8; */
+    background-color: #B9EBFF;
+    position: absolute;
+      top:80%;
+      left:0%;
+      text-align:center;
+      color:#15317E;
+      font-weight:bolder;
+      width:1550px;
+      height:340px;
+      opacity: 0.5;
+}
+
+.copy-container-header{
+      position: absolute;
+      top:0%;
+      left:28%;
+      text-align:center;
+      color:#15317E;
+      font-weight:bolder;
+}
+.copy-container-header h1{
+  font-size:60px;
+}
+.copy-container-content{
+  position: absolute;
+  top:30%;
+  left:0%;
+  text-align:center;
+  color:#15317E;
+  font-weight:bolder;
+}
+.copy-container-content h2{
+
+  font-size:35px;
+}
+
+.copy-container-content h3{
+
+  font-size:20px;
+}
+
+.copy-container-content h4{
+
+  font-size:18px;
+}
