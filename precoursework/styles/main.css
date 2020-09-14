@@ -64,11 +64,12 @@ div .contents-item{
     border:1px solid blue;
       height: 280px;
       width: 350px;
-      background-color:white;
+      background-color:rgb(255,255,255,0.8);
       float:left;
       margin:10px 10px 10px 10px;
     border-radius: 50%;
       padding:20px 20px 20px 20px;
+      backdrop-filter: blur(8px);
 
 }
 

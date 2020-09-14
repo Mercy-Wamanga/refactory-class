@@ -67,12 +67,12 @@ div .content-item{
    /* border:1px solid #a6e1f8;*/
       height: 280px;
       width: 280px;
-      background-color:white;
+      background-color:rgb(255,255,255,0.7);
       float:left;
      margin:10px 0px 10px 10px;
       padding:20px 20px 20px 20px;
       border-radius: 50%;
-      opacity: 1;
+      
 
 }
 
@@ -82,13 +82,13 @@ div .content-items{
     position: absolute;
     width:1200px;
     height:340px;
-    opacity: 1;
+    
 }
 
 
 .content{
     /* background-color: #a6e1f8; */
-    background-color: #B9EBFF;
+    background-color:rgb(185,235,255,0.7);
     position: absolute;
       top:80%;
       left:0%;
@@ -97,7 +97,7 @@ div .content-items{
       font-weight:bolder;
       width:1550px;
       height:340px;
-      opacity: 0.5;
+      
 }
 
 .copy-container-header{
