@@ -59,9 +59,7 @@ body{
   }
 */
 
-div .contents-item{
-      
-    border:1px solid blue;
+div .content-item{
       height: 280px;
       width: 350px;
       background-color:rgb(255,255,255,0.8);
@@ -70,17 +68,29 @@ div .contents-item{
     border-radius: 50%;
       padding:20px 20px 20px 20px;
       backdrop-filter: blur(8px);
+}
 
+div .contents-item{
+  left:15%;
+  /*background-color: #a6e1f8;*/
+    position: absolute;
+    width:1320px;
+    /*background-color: rgb(21,49,126,0.5);*/
+    
+    
 }
 
 .content{
-    /*border:1px solid blue;*/
+    
     position: absolute;
-      top:50%;
-      left:15%;
+      top:55%;
+      left:0;
       text-align:center;
-      color:#15317E;
+      color:rgb(21,49,126);
       font-weight:bolder;
+      width:1550px;
+      height:350px;
+      background-color: rgb(21,49,126,0.3);
 
 }
 
